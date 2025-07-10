@@ -5,7 +5,6 @@ function fish_greeting
 end
 
 source ~/.local/share/gh/extensions/gh-fish/gh-copilot-alias.fish
-## Source from conf.d before our fish config
 
 # Format man pages
 set -x MANROFFOPT -c
