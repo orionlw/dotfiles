@@ -11,3 +11,4 @@ PS1='[\u@\h \W]\$ '
 export PATH=$PATH:/home/orionlw/.cargo/bin
 eval "$(gh copilot alias -- bash)"
 alias config='/usr/bin/git --git-dir=/home/orionlw/.cfg/ --work-tree=/home/orionlw'
+alias config='/usr/bin/git --git-dir=/home/orionlw/bin/ --work-tree=/home/orionlw/bin'
