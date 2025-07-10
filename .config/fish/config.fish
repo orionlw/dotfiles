@@ -1,12 +1,11 @@
-# overwrite greeting
+source /usr/share/cachyos-fish-config/conf.d/done.fish
 # potentially disabling fastfetch
 function fish_greeting
     # hello
 end
 
 source ~/.local/share/gh/extensions/gh-fish/gh-copilot-alias.fish
-﻿## Source from conf.d before our fish config
-source /usr/share/cachyos-fish-config/conf.d/done.fish
+## Source from conf.d before our fish config
 
 # Format man pages
 set -x MANROFFOPT -c
